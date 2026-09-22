@@ -1,0 +1,30 @@
+{
+  "name": "top_restaurant_page",
+  "version": "1.0.0",
+  "description": "Project for The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cojoman21/TOP_Restaurant_Page.git"
+  },
+  "keywords": [],
+  "author": "Petru Cojocaru",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/cojoman21/TOP_Restaurant_Page/issues"
+  },
+  "homepage": "https://github.com/cojoman21/TOP_Restaurant_Page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
