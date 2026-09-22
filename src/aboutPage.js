@@ -1,7 +1,10 @@
 import foodImage from "./img/food.jpg";
 
-export function renderContent() {
+export function renderAboutPage() {
   const contentDiv = document.querySelector("#content");
+
+  const aboutContent = document.createElement("div");
+  aboutContent.classList.add("about-content");
 
   const contentContainer = document.createElement("div");
   contentContainer.classList.add("content");
@@ -11,7 +14,7 @@ export function renderContent() {
   contentImg.classList.add("bg-img");
 
   const contentH1 = document.createElement("h1");
-  contentH1.textContent = "Enjoy our healthy foods!";
+  contentH1.textContent = "About us";
 
   const contentDesc = document.createElement("p");
   contentDesc.textContent =
@@ -19,6 +22,8 @@ export function renderContent() {
 
   contentContainer.appendChild(contentH1);
   contentContainer.appendChild(contentDesc);
-  contentDiv.appendChild(contentImg);
-  contentDiv.appendChild(contentContainer);
+  aboutContent.appendChild(contentImg);
+  aboutContent.appendChild(contentContainer);
+
+  contentDiv.appendChild(aboutContent);
 }
