@@ -1,4 +1,4 @@
-import foodImage from "./img/food.jpg";
+import foodImage from "./img/food.webp";
 
 export function renderHomePage() {
   const contentDiv = document.querySelector("#content");
